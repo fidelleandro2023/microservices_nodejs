@@ -1,0 +1,27 @@
+{
+    "name": "app",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "app": "node index.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.1",
+        "express": "^4.17.2",
+        "express-handlebars": "^6.0.2",
+        "express-myconnection": "^1.0.4",
+        "mysql": "^2.18.1",
+        "morgan": "^1.7.0"
+    },
+    "devDependencies": {
+        "eslint": "^2.7.0",
+        "mocha": "^2.4.5",
+        "node-inspector": "^0.12.7",
+        "should": "^8.3.0",
+        "supertest": "^1.2.0"
+    }
+}
